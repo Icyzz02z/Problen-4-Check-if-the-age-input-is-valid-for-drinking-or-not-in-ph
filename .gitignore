@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+#include <iostream>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+using namespace std; 
 
-# Precompiled Headers
-*.gch
-*.pch
+int main()
+{
+    int valueInput; // empty variable 
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    cout <<  "what is your age: "; 
+    cin >> valueInput;
+    
+    cout << "the input value is" << valueInput << endl; 
+    if (valueInput > 17) {
+        cout << "you shall pass";
+    }
+    else if (valueInput < 5) {
+        cout << "you're still a minor";
+    }
+    else {
+        cout << "too young";
+    }
+}
