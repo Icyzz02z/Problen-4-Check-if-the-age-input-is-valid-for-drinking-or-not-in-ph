@@ -1,0 +1,47 @@
+using namespace std;
+
+int main()
+{
+	string name;
+	int type, amount;
+	double price;
+
+	cout << "\tWELCOME\n" << endl;
+	cout << "\tBenj Giron\n" << endl;
+	cout << "\tTX02\n" << endl;
+	system("pause");
+	system("cls");
+	cout << "=================" << endl;
+	cout << "Enter your name||" << endl;
+	cout << "=================" << endl;
+	cin >> name;
+	system("cls");
+
+	cout << "======================================================" << endl;
+	cout << "||Rolex [1] Gshock [2] BabyG [3] Swatch [4] Fake [5]||" << endl;
+	cout << "======================================================" << endl;
+	cin >> amount;
+	system("cls");
+
+	cout << "===============" << endl;
+	cout << "||Enter Price||" << endl;
+	cout << "===============" << endl;
+	cin >> price;
+	system("cls");
+
+	cout << "=====================" << endl;
+	cout << "||Enter your amount||" << endl;
+	cout << "=====================" << endl;
+	cin >> amount;
+	system("cls");
+
+	cout << "===============================================" << endl;
+	cout << "||\tBenj Giron\n" << endl;
+	cout << "||\tTX02\n" << endl;
+	cout << "||You entered: " << name << endl;
+	cout << "||You entered: " << price << endl;
+	cout << "||You entered: " << amount << endl;
+	cout << "||\tThankYou\n" << endl;
+	cout << "===============================================" << endl;
+	return 0;
+}
